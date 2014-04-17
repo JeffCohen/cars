@@ -1,3 +1,27 @@
+Car:
+  - year
+  - make
+  - model
+  - max_tire_size: integer
+
+Fitment:
+  - pcd
+  - et_min: integer
+  - et_max: integer
+
+Package:
+  - car_id
+  - fitment_id
+
+Rim:
+  - pcd
+  - et: integer
+
+Tire:
+  - brand
+  - diameter: integer
+  - size
+
 # Example table for a typical Book model.
 #
 # Book:
